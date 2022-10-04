@@ -1,0 +1,181 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@200;400&family=Montserrat:wght@200;300;400;500;600;700;800&family=Pinyon+Script&family=Seymour+One&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+    <link href="/Css/styleD.css" rel="stylesheet">
+    
+    <title>Tapitas X Patitas</title>
+  </head>
+
+  <body>
+ 
+    <header class="header">
+      <div class="container logo-nav-container">
+        <a href="index.html" class="logo"> TAPITAS <span class="primariox">X</span> <span class="TextTitulo"> Patitas</span> </a>
+        <span class="menu-icon">
+          <img src="imagen/outline_menu_white_24dp.png" alt="menu-icon">
+        </span>
+        <nav class="navegation">
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="Galeria.html">Galeria</a></li>
+            <li><a href="Informacion.html">Informacion</a></li>
+            <li><a href="Eventos.html">Eventos</a></li>
+            <li><a href="Donaciones.html">Donaciones</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+        <section class="topbox">
+
+    </section>
+
+    <section>
+      <div class="eventotitle">
+        <h1> Donaciones</h1>
+      </div>
+    </section>
+  
+
+    <main>
+      <div class="donaciones">
+
+        <!--<h2>¿Cuanto quieres donar? (COP)</h2>--> 
+        <form action="" class="formulario" id="formulario">
+          
+          <!-- Grupo: Nombre -->
+          <div class="formulario__grupo" id="grupo__usuario">
+            <label for="usuario" class="formulario__label">Nombre</label>
+            <div class="formulario__grupo-input">
+              <input type="text" class="formulario__input" name="usuario" id="usuario" placeholder="Ingresa Nombre Completo">
+              <i class="formulario__validacion-estado fas fa-times-circle"></i>
+            </div>
+            <p class="formulario__input-error">El Nombre tiene que ser de 4 a 50 caracteres y solo puede contener letras y espacios</p>
+          </div>
+
+          <!-- Grupo: Correo Electronico -->
+          <div class="formulario__grupo" id="grupo__correo">
+            <label for="correo" class="formulario__label">Correo Electrónico</label>
+            <div class="formulario__grupo-input">
+              <input type="email" class="formulario__input" name="correo" id="correo" placeholder="Ingresa Correo">
+              <i class="formulario__validacion-estado fas fa-times-circle"></i>
+            </div>
+            <p class="formulario__input-error">El correo solo puede contener letras, numeros, puntos, guiones y guion bajo.</p>
+          </div>
+
+          <!-- Grupo: Teléfono -->
+          <div class="formulario__grupo" id="grupo__telefono">
+            <label for="telefono" class="formulario__label" aria-colspan="50">Teléfono</label>
+            <div class="formulario__grupo-input">
+              <input type="text" class="formulario__input" name="telefono" id="telefono" placeholder="Ingresa tu numero de celular">
+              <i class="formulario__validacion-estado fas fa-times-circle"></i>
+            </div>
+            <p class="formulario__input-error">El telefono solo puede contener numeros y el maximo son 10 dígitos.</p>
+          </div>
+    
+    
+          <!-- Grupo: Mensaje -->
+          <div class="formulario__grupo" id="grupo__mensaje">
+            <label for="mensaje" class="formulario__label">Mensaje (Opcional)</label>
+            <div class="formulario__grupo-input">
+              <input type="text" class="formulario__input" name="mensaje" id="mensaje" placeholder="Escribe aqui tu Mensaje - Max. 600 caracteres">
+              <i class="formulario__validacion-estado fas fa-times-circle"></i>
+            </div>
+            <p class="formulario__input-error">No se aceptan mas de 600 caracteres</p>
+          </div>
+    
+          <!-- Grupo: Contraseña 
+          <div class="formulario__grupo" id="grupo__password">
+            <label for="password" class="formulario__label">Contraseña</label>
+            <div class="formulario__grupo-input">
+              <input type="password" class="formulario__input" name="password" id="password">
+              <i class="formulario__validacion-estado fas fa-times-circle"></i>
+            </div>
+            <p class="formulario__input-error">La contraseña tiene que ser de 4 a 12 dígitos.</p>
+          </div>
+    
+         Grupo: Contraseña 2
+          <div class="formulario__grupo" id="grupo__password2">
+            <label for="password2" class="formulario__label">Repetir Contraseña</label>
+            <div class="formulario__grupo-input">
+              <input type="password" class="formulario__input" name="password2" id="password2">
+              <i class="formulario__validacion-estado fas fa-times-circle"></i>
+            </div>
+            <p class="formulario__input-error">Ambas contraseñas deben ser iguales.</p>
+          </div>
+               -->
+
+
+
+
+          <!-- Grupo: Terminos y Condiciones 
+          <div class="formulario__grupo" id="grupo__terminos">
+            <label class="formulario__label">
+              <input class="formulario__checkbox" type="checkbox" name="terminos" id="terminos">
+              Acepto los Terminos y Condiciones
+            </label>
+          </div>
+          -->
+    
+          <div class="formulario__mensaje" id="formulario__mensaje">
+            <p><i class="fas fa-exclamation-triangle"></i> <b>Error:</b> Por favor rellena el formulario correctamente. </p>
+          </div>
+    
+          <div class="formulario__grupo formulario__grupo-btn-enviar">
+            <button type="submit" class="formulario__btn" >Enviar</button>
+            <p class="formulario__mensaje-exito" id="formulario__mensaje-exito">Formulario enviado exitosamente!</p>
+          </div>
+        </form>
+      </div>
+    </main>
+    
+    
+    <footer class="pie-pagina">
+      <div class="grupo-1">
+        <div class="box">
+          <figure>
+            <a  href="https://www.coordinadora.com/tapitasxpatitas/" target="_blank">
+              <img src="imagen/10672201_1482923498632497_5053148817689765263_n.png" alt="logo tapitas">
+            </a>
+          </figure>
+        </div>
+        <div class="box">
+          <h2>SOBRE NOSOTROS</h2>
+          <P>‘Tapitas x Patitas’ es una fundación que cuida y protege a los animales de la calle y que se financia gracias al proceso de recolección y reciclaje de tapas plásticas. </P>
+          <P>Esta es una de las más de 3.000 iniciativas que recibieron el apoyo de hasta 3 millones de pesos a través del programa Impulso Local de la Secretaría de Gobierno.</P>
+        </div>
+        <div class="box">
+          <h2>SIGUENOS</h2>
+          <div class="red-social">
+            <a href="https://www.facebook.com/tapitasxpatitas.col/" target="_blank"   class="fa fa-facebook"></a>
+            <a href="https://www.instagram.com/tapitasxpatitas_col/?hl=es" target="_blank" class="fa fa-instagram"></a>
+            <a href="https://www.youtube.com/channel/UCTrv6MaNonZJyYm2esRpg9A" target="_blank" class="fa fa-youtube"></a>
+          </div>
+        </div>
+      </div>
+      <div class="grupo-2">
+        <small>&copy; 2022 <b>tapitas x patitas</b> - Todos los Derechos Reservados - llamanos 320 876 7345.</small>
+      </div>
+  
+    </footer> 
+
+    
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="/Java/formulario.js"></script>
+    <script src="/Java/scripts.js"></script>
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+
+   
+
+  </body>
+ 
+</html>
+
