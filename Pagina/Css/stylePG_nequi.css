@@ -1,0 +1,432 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+:root {
+    --primarrio1: #D84E4E;
+    --primario2: #E12121;
+    --azul: #B1ECF4;
+    --azul2:#4AC1F0;
+    --azul3: #3FA4CC;
+    --azul4: #10607F;
+    --azul5: #4E8594;
+    --dark: #000;
+    --light: #fff;
+    --lhueso:#F1EFDC;
+
+  }
+  .primariox{color:#D84E4E;}
+
+  body{
+    background-image: url(https://cdn.discordapp.com/attachments/875486417613107236/1026936322318925986/unknown.png);
+    font-family: 'Montserrat',sans-serif;
+    font-size: 22px;
+    background-size: contain;
+    }
+
+  .container{
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .header{
+    background: var(--azul4);
+    font-family: 'Inter', sans-serif;
+    font-size: large;
+    color: var(--light);
+    padding: 1rem 1rem;
+  }
+  .header a{
+    color: var(--light);
+    text-decoration: none;
+  }
+  .logo{
+    font-family: 'Bebas Neue', cursive;
+    font-weight:800;
+    letter-spacing: 7px;
+  }
+
+  .logo .primariox{
+    font-family: 'Seymour One', sans-serif;
+  }
+  .TextTitulo{
+    font-family: 'Pinyon Script', cursive;
+    font-size:xx-large;
+    letter-spacing: 2px;
+  }
+  .logo-nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .menu-icon{
+    display: none;
+  }
+  
+  .navegation ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .navegation ul li{
+    display: inline-block;
+  }
+  .navegation ul li a{
+    display: block;
+    padding: .5rem 1rem;
+    transition: all 0.4s linear;
+    border-radius: 8px;
+  }
+  .navegation ul li a:hover{
+    color: rgb(49, 48, 48);
+  }
+  
+
+
+  .pago{
+    background: linear-gradient(rgba(16,96,127,0.8),rgba(16,96,127,0.8));
+    color:var(--light);
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    text-align: left;
+    padding: 5% 5%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+  }
+
+  .pagotext{
+    display: block;
+    margin-bottom: 66px;
+    font-family: 'Montserrat',sans-serif;
+    padding-top: 5%;
+    align-content: center;
+    
+  } 
+  
+  .pago img{
+    display: block;
+    width: 50%;
+    margin:auto;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    padding:5px;
+    box-sizing: border-box;
+    border-radius: 35px;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.25);
+  }
+
+  .ptexto{
+    margin-bottom: 66px;
+    font-family: 'Montserrat',sans-serif;
+  }
+
+  .donaciones{
+    width: 83.6%;
+    height: 100%;
+    color: #fff; /*color de texto*/
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 32px;;
+    padding: 20px 30px; /*radio del borde*/
+    text-align: center;
+    font-size: 25px;
+    margin: auto;
+    margin-bottom:116px;
+    
+  } 
+  .titulo{ 
+    color: var(--light);
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    text-align: left;
+    padding: 15px 30px;
+
+  }
+
+  .eventotitle{
+
+    width: 100%;
+    height: auto;
+    color: var(--light);
+    display: block;
+    text-align: center;
+
+    font-weight:600;
+    font-size: 48px;
+    line-height: 58.51px;
+
+    margin-top: 20px;
+    margin-bottom: 22px;
+  }
+
+  .eventotitle h1{
+
+    height: auto;
+    color: var(--light);
+    display: block;
+    text-align: center;
+    
+    font-weight:600;
+    font-size: 96px;
+    margin-top:5%;
+    margin-bottom: 10%;
+    
+    text-shadow: 0px 14px 4px rgb(0, 0, 0,0.25);
+
+  }
+
+  .eventotitle h2{
+    height: auto;
+    color: var(--light);
+    display: block;
+    text-align: center;
+
+    font-weight:600;
+    font-size: 96px;
+
+    line-height: 78.02px;
+
+    text-shadow: 0px 14px 4px rgb(0, 0, 0,0.25);
+    
+  }
+
+  .topbox{
+    width: 100%;
+    height:533px;
+    box-shadow: 0 2rem 2rem 0 rgba(0, 0, 0, 0.25);
+    background-image:url(https://cdn.discordapp.com/attachments/875486417613107236/1027022797802844240/PortadaDonaciones.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+    background-color: #fff;
+    -webkit-box-shadow: 0 2rem 2rem 0 rgba(0, 0, 0, 0.25);
+  }
+  
+  main {
+    max-width: 800px;
+    width: 90%;
+    margin: auto;
+    padding: 40px;
+  }
+  
+  .formulario__grupo-btn-enviar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .formulario__btn {
+    display: flex;
+    color: white;
+    margin: 5%;
+    border: 0px solid var(--azul4);
+    justify-content: center;
+    text-decoration: none;
+    padding: 15px 15px;
+    background-color: var(--azul4);
+    filter: drop-shadow(0px 9px 4px rgba(0,0,0, 0.5));
+    border-radius: 20px;
+    font-size: 24px;
+    transition-duration: 0.4s;
+  }
+
+  .buton2{
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    color: white;
+    margin-top: 20px;
+    margin-left:30%;
+    margin-right:30%;
+    border: 4px solid var(--azul4);
+    text-decoration: none;
+    padding: 15px 30px;
+    background-color: var(--azul4);
+    filter: drop-shadow(0px 4px 5px rgba(0,0,0, 0.5));
+    border-radius: 20px;
+    transition-duration: 0.4s;
+  }
+  .buton2:hover{
+    color: var(--light);
+    background-color: var(--primarrio1);
+  }
+  
+  .formulario__btn:hover {
+    color: var(--light);
+    background-color: var(--primario2);
+  }
+
+  .pie-pagina{
+    width: 100%;
+    background-color: var(--azul4);
+  }
+  .pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1500px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+
+  }
+  .pie-pagina .grupo-1 .box figure{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  .pie-pagina .grupo-1 .box figure img{
+  width: 250px;
+  }
+  .pie-pagina .grupo-1 .box figure img:hover{
+
+    width: 200px;
+  
+  }
+  .pie-pagina .grupo-1 .box h2 {
+    color: var(--light);
+    margin-bottom: 25px;
+    font-size: 20px;
+  }
+  .pie-pagina .grupo-1 .box p{
+    color: var(--lhueso);
+    margin-bottom: 10px;
+  }
+  .pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: var(--light);
+    margin-right: 10px;
+    background-color:#126485;
+    text-align: center;
+    transition-duration: 0.4s;    
+  }
+  .pie-pagina .grupo-1 .red-social a:hover{
+    color:#0d445a;
+  }
+  .pie-pagina .grupo-2{
+    background-color:#0d445a;
+    padding: 15px 10px;
+    text-align: center;
+    color: var(--light);
+  }
+  .pie-pagina .grupo-2 small{
+    font-size: 15px;
+  }
+
+  @media only screen and (max-width: 1010px){
+
+    .titulo{ 
+      color: var(--light);
+      font-family: 'Montserrat',sans-serif;
+      font-weight: 600;
+      font-size: 20px;
+      text-align: left;
+      padding: 15px 30px;
+    }
+
+    .pago img{
+      display: block;
+      width: 50%;
+      margin:auto;
+      margin-bottom: 5%;
+      margin-top: 5%;
+      padding:5px;
+      box-sizing: border-box;
+      border-radius: 35px;
+      box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.25);
+    }
+
+    .eventotitle{
+      width: 100%;
+      font-size: 24px;
+      line-height: 58.51px;
+    }
+  
+    .eventotitle h1{
+  
+      color: var(--light);
+      
+      font-weight:600;
+      font-size: 60px;
+    }
+  
+    .eventotitle h2{
+      color: var(--light);
+      font-weight:600;
+      font-size: 60px;
+      
+    }
+
+    .formulario {
+      grid-template-columns: 1fr;
+    }
+  
+    .formulario__grupo-terminos, 
+    .formulario__mensaje,
+    .formulario__grupo-btn-enviar {
+      grid-column: 1;
+    }
+  
+    .formulario__btn {
+      width: 100%;
+    }
+  
+    .menu-icon img{
+      width: 100%;
+      object-fit: cover;
+      display: block;
+      margin: 0;
+      
+    }
+
+    .menu-icon{
+      display:block;
+      cursor: pointer;
+      padding: .5rem 1rem;
+      
+    }
+    .navegation ul{
+      display: none;
+      
+    }
+
+    .navegation ul.show{
+      display: block;
+      flex-direction: row;
+    }
+    
+    .navegation{
+      width: 100%;
+      margin-top: 1rem;
+    }
+    .navegation ul li{
+      display: block;
+
+    }
+    .navegation ul li a{
+      display: block;
+      padding: .5rem 0rem;
+      transition: all 0.4s linear;
+      border-radius: 8px;
+    }
+
+
+    .pie-pagina .grupo-1{
+      width: 80%;
+      grid-template-columns: repeat(1,1fr);
+      grid-gap: 30px;
+      padding: 35px 0px;
+  
+    }
+  }
+
+
+

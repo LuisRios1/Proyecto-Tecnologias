@@ -1,0 +1,327 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+:root {
+    --primarrio1: #D84E4E;
+    --primario2: #E12121;
+    --azul: #B1ECF4;
+    --azul2:#4AC1F0;
+    --azul3: #3FA4CC;
+    --azul4: #10607F;
+    --azul5: #4E8594;
+    --dark: #000;
+    --light: #fff;
+    --lhueso:#F1EFDC;
+
+  }
+  .primariox{color:#D84E4E;}
+
+  body{
+    background:linear-gradient(to bottom, var(--azul5) 0%, var(--azul5)75%, var(--azul)75%, var(--azul)100%);
+    font-family: 'Montserrat',sans-serif;
+    font-size: larger;
+    }
+
+  .container{
+    width: 80%;
+    margin: 0 auto;
+  }
+  .header{
+    background: var(--azul4);
+    font-family: 'Inter', sans-serif;
+    font-size: large;
+    color: var(--light);
+    padding: 1rem 1rem;
+  }
+  .header a{
+    color: var(--light);
+    text-decoration: none;
+  }
+  .logo{
+    font-family: 'Bebas Neue', cursive;
+    font-weight:800;
+    letter-spacing: 7px;
+  }
+
+  .logo .primariox{
+
+    font-family: 'Seymour One', sans-serif;
+  }
+  .TextTitulo{
+    font-family: 'Pinyon Script', cursive;
+    font-size:xx-large;
+    letter-spacing: 2px;
+  }
+  .logo-nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .menu-icon{
+    display: none;
+  }
+  
+  .navegation ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .navegation ul li{
+    display: inline-block;
+  }
+  .navegation ul li a{
+    display: block;
+    padding: .5rem 1rem;
+    transition: all 0.4s linear;
+    border-radius: 8px;
+  }
+  .navegation ul li a:hover{
+    color: rgb(49, 48, 48);
+  }
+  
+  .mission{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color:var(--light);
+  }
+
+  .missiond{
+    background: #B1ECF4;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .imgato{
+    display: flex;
+    margin-top: 174px;
+    width: 40%;
+    align-items: center;
+    box-sizing: border-box;
+    margin-bottom: 200px;
+  }
+
+  .imgato img{
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .mision{
+    margin-top: 174px;
+    margin-bottom: 200px;
+    width: 60%;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    display: flex;
+    align-items: center;
+    margin-right: 5%;
+    text-align: right;
+    box-sizing: border-box;
+    
+  } 
+  .titulo{ 
+    color: var(--light);
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 0px 4px 4px black;
+    padding: 2rem 0;
+  }
+
+  
+  .topbox{
+    width: 100%;
+    height:560px;
+    border-radius: 0px 120px 120px 0px;
+    box-shadow: 0 2rem 2rem 0 rgba(0, 0, 0, 0.25);
+    background-image:linear-gradient(270deg, black, transparent),url(https://media.discordapp.net/attachments/875486417613107236/1026223771847250000/Imagen_portada_informacion.png);
+    background-position: center;
+    background-size: 100% 100%;
+    background-color: #fff;
+    -webkit-border-radius: 0% 0% 50% 50%;
+    -webkit-box-shadow: 0 2rem 2rem 0 rgba(0, 0, 0, 0.25);
+  }
+  
+  p.textotop {
+    height: 400px;
+    color: #fff;
+    width: 95%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    font-weight:600;
+    font-size: 82px;
+    font-style: normal;
+    padding: 0 1%;
+    text-shadow: 0px 14px 4px rgba(0, 0, 0, 0.25);
+
+  }
+
+  .pie-pagina{
+    width: 100%;
+    background-color: var(--azul4);
+  }
+  .pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1500px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+
+  }
+  .pie-pagina .grupo-1 .box figure{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  .pie-pagina .grupo-1 .box figure img{
+  width: 250px;
+  }
+  .pie-pagina .grupo-1 .box figure img:hover{
+
+    width: 200px;
+  
+  }
+  .pie-pagina .grupo-1 .box h2 {
+    color: var(--light);
+    margin-bottom: 25px;
+    font-size: 20px;
+  }
+  .pie-pagina .grupo-1 .box p{
+    color: var(--lhueso);
+    margin-bottom: 10px;
+  }
+  .pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: var(--light);
+    margin-right: 10px;
+    background-color:#126485;
+    text-align: center;
+    transition-duration: 0.4s;    
+  }
+  .pie-pagina .grupo-1 .red-social a:hover{
+    color:#0d445a;
+  }
+  .pie-pagina .grupo-2{
+    background-color:#0d445a;
+    padding: 15px 10px;
+    text-align: center;
+    color: var(--light);
+  }
+  .pie-pagina .grupo-2 small{
+    font-size: 15px;
+  }
+
+  @media only screen and (max-width: 1010px){
+    .menu-icon img{
+      width: 100%;
+      object-fit: cover;
+      display: block;
+      margin: 0;
+      
+    }
+
+    .menu-icon{
+      display:block;
+      cursor: pointer;
+      padding: .5rem 1rem;
+      
+    }
+    .navegation ul{
+      display: none;
+      
+    }
+
+    .navegation ul.show{
+      display: block;
+      flex-direction: row;
+    }
+    
+    .navegation{
+      width: 100%;
+      margin-top: 1rem;
+    }
+    .navegation ul li{
+      display: block;
+
+    }
+    .navegation ul li a{
+      display: block;
+      padding: .5rem 0rem;
+      transition: all 0.4s linear;
+      border-radius: 8px;
+    }
+
+    .mision{
+      margin-top: 174px;
+      margin-bottom: 200px;
+      width: 60%;
+      font-family: 'Montserrat', sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 39px;
+      display: flex;
+      align-items: center;
+      margin-right: 5%;
+      text-align: right;
+      box-sizing: border-box;
+      
+    } 
+
+    p.textotop {
+      height: 400px;
+      color: #fff;
+      width: 95%;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+  
+      font-weight:600;
+      font-size: 41px;
+      font-style: normal;
+      padding: 0 1%;
+      text-shadow: 0px 14px 4px rgba(0, 0, 0, 0.25);
+    }
+  
+    .topbox{
+      width: 100%;
+      height:560px;
+      border-radius: 0px 120px 120px 0px;
+      box-shadow: 0 2rem 2rem 0 rgba(0, 0, 0, 0.25);
+      background-image:linear-gradient(270deg, black, transparent), url(https://media.discordapp.net/attachments/875486417613107236/1026223771847250000/Imagen_portada_informacion.png);
+      background-position: center;
+      background-size: 100% 100%;
+      background-color: #fff;
+      -webkit-border-radius: 0% 0% 50% 50%;
+      -webkit-box-shadow: 0 2rem 2rem 0 rgba(0, 0, 0, 0.25);
+    }
+
+    .pie-pagina .grupo-1{
+      width: 80%;
+      grid-template-columns: repeat(1,1fr);
+      grid-gap: 30px;
+      padding: 35px 0px;
+  
+    }
+  }
+
+
+
