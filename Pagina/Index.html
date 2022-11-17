@@ -1,0 +1,59 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@200;400&family=Montserrat:wght@200;300;400;500;600;700;800&family=Pinyon+Script&family=Seymour+One&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+    <link href="Css/styleG.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <!--<script src="Java/scriptsP1.js"></script>--> <!-- PUNTO 1 TALLER JS --> 
+    <!--<script src="Java/scriptsP2.js"></script> --><!-- PUNTO 2 TALLER JS --> 
+    <!----><script src="Java/scriptsP3yP4.js"></script> <!-- PUNTO 2 TALLER JS --> 
+    <title>Tapitas X Patitas</title>
+  </head>
+
+  <body>
+
+ 
+<h1 class="galeriatitle">
+  Galería
+</h1>
+    <section>
+      <!-- Galeria -->
+      <div class="galeria">
+        <div class="lista-imagenes">
+          <img class="contenedor" src="" alt="imagen principal">
+
+          <div class="titulo">Titulo: </div>
+          <p class="desc">descripcion</p>
+
+         
+
+          <button id="button" oncontextmenu="event.preventDefault();"> Anterior/Siguiente </button>
+          <p id="log"></p>
+
+        </div>
+      </div>
+    </section>
+    <section>
+      <center>
+        <form action="Galeria.php" method="post" enctype="multipart/form-data">
+          <input type="text" required name="Titulo" placeholder="Titulo....." value=""/>
+          <input type="text" required name="descripcion" placeholder="Descripccion....." value=""/>
+          <input type="file" required name="Imagen" />
+          <input type="submit" value="Aceptar">
+        </form>
+      </center>
+    </section>
+    
+  </body>
+ 
+
+ 
+</html>
+
