@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@200;400&family=Montserrat:wght@200;300;400;500;600;700;800&family=Pinyon+Script&family=Seymour+One&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/82d3cfe7e2.js" crossorigin="anonymous"></script>
+    <link href="css/Estilos.css" rel="stylesheet">
+    
+    <script type = "module" src="js/baseW.js"></script>
+    <script type = "module" src="js/scriptsW.js"></script>
+   
+
+    <title>Administrador</title>
+  </head>
+
+  <body>
+    <header class="header">
+        <div class="container logo-nav-container">
+          <a href="index.html" class="logo"> Web Administrador</a>
+          <span class="menu-icon fa-solid fa-bars"></span>
+          <nav class="navegation">
+            <ul>
+              <li><a href="index.html">Panel de control</a></li>
+              <li><a href="Ad_Galeria.html">AD_Galeria</a></li>
+              <!--<li><a href="Informacion.html">Informacion</a></li>-->
+              <li><a href="EventosW.html">AD_Eventos</a></li>
+              <!--<li><a href="Pagos_nequi.html">Donaciones</a></li>-->
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <section class="avisoyedicion">
+        <div class="margenes">      
+        <h1><span class="fa-solid fa-gear" aria-hidden="true"></span> Panel de control<small> Administrador de sitio</small></h1>
+          <ul class="panel_control_nav">
+            <li><a href=""> Crear Contenido</a>
+<!--
+              <ul>
+                <li><a href=""> Agregar</a></li>
+                <li><a href=""> Editar</a></li>
+                <li><a href=""> Eliminar</a></li>
+              </ul>
+    -->
+            </li>
+          </ul>
+        </div>
+
+      </section> 
+
+
+    <section class="columnas margenes">
+
+
+        <div class="panel_control">
+            <div class="pn">
+                <h2>Panel de Control</h2>
+            </div>
+            <div class="panel">
+                <ul>
+                    <li><h3><span class="fa-solid fa-calendar-days"></span> Eventos</h3><span class="num">30</span></li> 
+                    <li><h3><span class="fa-solid fa-money-check-dollar"></span>Donaciones</h3><span class="num">69</span></li> 
+                    <li><h3><span class="fa-solid fa-chart-simple"> </span> Visitantes</h3><span class="num">8</span></li>
+                </ul>
+            </div>
+        </div>
+      </h3>
+        <div class="vista_rapida">
+            <div class="vista">
+                <h3>Vista Rapida</h3>
+            </div>
+            <div class="Etiquetas">
+                <ul>
+                    <li><h4><span class="fa-solid fa-chart-simple" id="visitantes"> 30</span></h4> <span class="txt_">Imagenes</span></li>
+                    <li><h4><span class="fa-solid fa-money-check-dollar" id="donadores"> 20,000</span></h4> <span class="txt_">Donaciones</span></li>
+                    <li><h4><span class="fa-solid fa-calendar-days" id="eventos"> 15 </span></h4> <span class="txt_">Eventos</span></li>
+                </ul>
+            </div>        
+        </div>
+
+        <div>
+        </div>
+
+        <div>
+          <div class="ultdonantes">
+            <h3>Ultimos Donantes</h3>
+          </div>
+          <div class="tabladonantes">
+            <table class="listad">
+              <thead>
+                <th>Num</th>
+                <th>Nombre</th>
+                <th>Cedula</th>
+                <th>Email</th>
+                <th>Donativo</th>
+                <th>Arefenerencia</th>
+                <th>Referencia</th>
+              </thead>
+              <tbody id = "contenido"></tbody>
+            </table>
+            
+          </div>
+        </div>
+
+    </section>
+
+  
+
+      <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+  </body>
+</html>
